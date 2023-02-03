@@ -1,0 +1,77 @@
+.s3-d {
+
+}
+
+
+.s3-outer {
+    width:453px !important;
+    height: 685px !important;
+    background-image: linear-gradient(to right, #0C131C, #0C131C);
+    /* background-image: linear-gradient(to bottom, #01DAEC, #004654, #000000 ); */
+    margin-right:20px;
+}
+
+.s3-inner {
+    height:545px;
+    width: 408px;
+    background-color: #2B2B2B;
+    border-radius: 8px 0px 0px 0px;
+
+}
+
+.s3-slide-image {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    padding-top:5px;
+    padding-left:5px;
+    margin-top: auto;
+    margin-left:auto;
+}
+
+.s3-slider {
+    margin-top: 90px;
+}
+
+/* .owl-carousel .owl-stage-outer {
+   
+    overflow: visible !important;
+   
+} */
+
+.s3-outer:hover {
+    background-image: linear-gradient(to bottom, #01DAEC, #004654, #000000 ); 
+}
+
+
+.s3-outer:hover .s3-inner {
+    background-color: #012930 
+}
+
+.s3-outer:hover .s3-slide-image {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.s3 > .container-fluid > .row > .container > .owl-stage-outer {
+    overflow:visible !important;
+}
+
+.s3 > .container-fluid > .row > .container > .owl-stage-outer > .owl-stage{
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .s3-d {
+        flex-direction: column !important;
+
+    }
+    
+    .s3-action {
+        margin-right: auto !important;
+        margin-left:0 !important;
+        position:relative;
+        z-index:40;
+        padding-top:45px;
+    }
+   
+}

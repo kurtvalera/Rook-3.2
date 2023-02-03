@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@font-face {
+    font-family:'Poppins';
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Poppins-ExtraLight';
+    src: url(../fonts/poppins/Poppins-ExtraLight.otf);
+}
+
+@font-face {
+    font-family:'Poppins-SemiBold';
+    src: url(../fonts/poppins/Poppins-SemiBold.otf);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #080D13;
+    padding:0px !important;
+    overflow-x:hidden !important;
+}
+
+#wrapper {
+    overflow-x: hidden !important;
+}
+
+
+.span-title {
+    color: #7A7A7A !important;
+}
+
+.popNABB {
+    font-family: 'Poppins-ExtraLight', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size:75px !important;
+    font-weight:600 !important;
+    line-height:80px;
+    letter-spacing: -0.8px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size:60px !important;
+    font-weight:600 !important;
+    line-height:65px;
+    letter-spacing: -0.8px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size:45px !important;
+    font-weight:600 !important;
+    line-height:60px;
+    letter-spacing: -0.8px;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size:30px !important;
+    font-weight:600 !important;
+    line-height:36px;
+    letter-spacing: -0.8px;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size:22px !important;
+    font-weight:600 !important;
+    line-height:27px;
+    letter-spacing: -0.8px;
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size:18px !important;
+    font-weight:600 !important;
+    line-height:23px;
+    letter-spacing: -0.8px;
+}
+
+.text-b {
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size:20px;
+    line-height:32px;
+}
+
+.text-description {
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size:16px;
+    line-height:28px;
+}
+
+.text-meta {
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    font-size:12px;
+    line-height:20px;
+}
+
+.light-orb {
+    width: 760px;
+    height: 760px;
+    background: #005260;
+    -webkit-filter: blur(225px);
+    filter: blur(225px);
+    position:absolute
+}
+
+
+::placeholder {
+    font-family: 'Poppins', sans-serif;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:15px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+
+.text-extralight {
+    font-family: 'Poppins-ExtraLight', sans-serif;
+}
+
+.text-semibold {
+    font-family: 'Poppins-SemiBold', sans-serif;
+}

@@ -1,0 +1,7 @@
+.s5-slide-item {
+    margin-right:20px;
+}
+
+.s5 > .container-fluid > .row > .container > .owl-stage-outer {
+    overflow: visible !important;
+}

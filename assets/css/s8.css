@@ -1,0 +1,23 @@
+.s8-header-title {
+    font-size:60px;
+    line-height:65px;
+    letter-spacing:-6%;
+    width:60%
+}
+
+.s8-header-description {
+    font-size:20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.s8 {
+    background-image: url(../images/s8-bg.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.s8-input {
+    width:60%;
+}

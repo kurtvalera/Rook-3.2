@@ -1,0 +1,26 @@
+.s4-header {
+    line-height: 75px;
+    letter-spacing: -6%;
+}
+
+.s4-logo-container {
+    margin-top:100px
+} 
+
+.s4-logo-column {
+    margin-left:45px;
+    margin-right:45px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .s4-header {
+        line-height:50px;
+        font-size:40px;
+        text-align:left !important;
+        justify-content:left;
+        width: 100% !important;
+    }
+   
+}
