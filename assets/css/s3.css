@@ -11,6 +11,12 @@
     margin-right:20px;
 }
 
+.s3-outer:hover {
+    
+    cursor: url(../images/hover-img.png), auto;
+}
+
+
 .s3-inner {
     height:545px;
     width: 408px;

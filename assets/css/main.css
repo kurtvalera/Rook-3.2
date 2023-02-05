@@ -133,3 +133,21 @@ h6 {
 .text-semibold {
     font-family: 'Poppins-SemiBold', sans-serif;
 }
+
+.btn-gradient {
+    background-image: linear-gradient( #ffffff, #ffffff);
+   
+    cursor:pointer;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    
+ }
+
+ .btn-gradient:hover {
+
+
+    background-image: linear-gradient(to right,#00EFFE, #005064, #0050AE)
+ }

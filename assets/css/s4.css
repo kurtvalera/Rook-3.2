@@ -14,6 +14,14 @@
     margin-bottom:10px;
 }
 
+.s4-logos {
+    opacity:0.3
+}
+
+.s4-logos:hover {
+    opacity:1
+}
+
 @media only screen and (max-width: 768px) {
     .s4-header {
         line-height:50px;

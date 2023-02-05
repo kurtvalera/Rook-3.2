@@ -5,6 +5,9 @@
     font-family: 'Poppins', sans-serif;
     color: #D9D9D9
 }
+.menu:hover {
+    cursor: pointer;
+}
 
 .scrolled-down {
     transform:translateY(-100%); transition: all 0.3s ease-in-out;

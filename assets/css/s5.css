@@ -5,3 +5,8 @@
 .s5 > .container-fluid > .row > .container > .owl-stage-outer {
     overflow: visible !important;
 }
+
+.s5-slide-item:hover {
+    
+    cursor: url(../images/hover-img.png), auto;
+}
