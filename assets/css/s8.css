@@ -58,6 +58,11 @@ input[type=text] {
     
 }
 
+textarea[type=text] {
+    padding-left:25px !important;
+    
+}
+
 .form-control:focus {
     box-shadow: none !important;
     padding:1px;
