@@ -17,7 +17,8 @@
 }
 
 .s9-nav-text:hover {
-    color:white
+    color:white;
+    cursor:pointer;
 }
 
 .s9-nav-header {
@@ -29,4 +30,9 @@
     font-size: 12px;
     line-height:20px;
     font-weight:400
+}
+
+.s9-socmed {
+    color: #007D87 !important;
+    font-size: 18px  !important; 
 }

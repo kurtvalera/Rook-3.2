@@ -1,8 +1,12 @@
 .s4-header {
     line-height: 75px;
-    letter-spacing: -6%;
+    letter-spacing: -4px;
 }
 
+.s4 {
+    height: 100vh;
+    width:100%
+}
 .s4-logo-container {
     margin-top:100px
 } 
@@ -15,7 +19,8 @@
 }
 
 .s4-logos {
-    opacity:0.3
+    opacity:0.3;
+    transition: all 0.3s ease-in-out;
 }
 
 .s4-logos:hover {

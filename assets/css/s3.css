@@ -1,29 +1,40 @@
-.s3-d {
-
-}
-
-
 .s3-outer {
     width:453px !important;
     height: 685px !important;
     background-image: linear-gradient(to right, #0C131C, #0C131C);
     /* background-image: linear-gradient(to bottom, #01DAEC, #004654, #000000 ); */
     margin-right:20px;
+    border-radius:8px;
+    transition: 0.3s ease-in-out;
+    display:block;
+    position:relative;
+    z-index:10;
 }
 
-.s3-outer:hover {
-    
-    cursor: url(../images/hover-img.png), auto;
+.s3-outer:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: linear-gradient(to bottom, #007487, #004654, #000000 );
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    border-radius:8px !important;
 }
 
+.s3-slide-title{
+    z-index:20
+}
 
 .s3-inner {
     height:545px;
     width: 408px;
     background-color: #2B2B2B;
     border-radius: 8px 0px 0px 0px;
-
-}
+    z-index:20;
+}   
 
 .s3-slide-image {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -32,7 +43,43 @@
     padding-left:5px;
     margin-top: auto;
     margin-left:auto;
+    position:relative;
+    z-index:20;
+    transition: all 0.3s ease-in-out;
 }
+
+.s3 > .container-fluid > .row > .container >.item:hover {
+    cursor: url(../images/s3-cursor-be.png) 60 60, auto;
+
+}
+
+.s3-outer:hover:after {
+    opacity: 1;
+    
+    cursor: url(../images/s3-cursor-be.png) 60 60, auto;
+}
+
+.s3-inner:hover:after {
+    cursor: url(../images/s3-cursor-be.png) 60 60, auto;
+}
+
+.s3-slide-image:hover {
+    cursor: url(../images/s3-cursor-be.png) 60 60, auto;
+}
+
+.s3-slide-title:hover {
+    cursor: url(../images/s3-cursor-be.png) 60 60, auto;
+}
+
+.s3-outer:hover .s3-inner {
+    background-color: #012930 
+}
+
+.s3-outer:hover .s3-slide-image {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
 
 .s3-slider {
     margin-top: 90px;
@@ -44,19 +91,6 @@
    
 } */
 
-.s3-outer:hover {
-    background-image: linear-gradient(to bottom, #01DAEC, #004654, #000000 ); 
-}
-
-
-.s3-outer:hover .s3-inner {
-    background-color: #012930 
-}
-
-.s3-outer:hover .s3-slide-image {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-}
 
 .s3 > .container-fluid > .row > .container > .owl-stage-outer {
     overflow:visible !important;

@@ -8,5 +8,5 @@
 
 .s5-slide-item:hover {
     
-    cursor: url(../images/hover-img.png), auto;
+    cursor: url(../images/s5-cursor.png) 60 60, auto;
 }
