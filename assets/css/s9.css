@@ -36,3 +36,41 @@
     color: #007D87 !important;
     font-size: 18px  !important; 
 }
+@media only screen and (max-width: 768px) {
+    .s9 > .container {
+        flex-direction: column !important;
+        padding-left:60px !important;
+        padding-right:60px !important;
+    }
+    .s9-footer-img {
+        width:50%;
+    }
+    .s9> .container > .s9-col {
+        justify-content: center;
+        align-items: center;
+    }
+    .s9-col-1 {
+        margin-left:0 !important;
+        margin-right:auto !important;
+        margin-top:40px;
+    }
+    .s9-col-2 {
+        margin-left:0 !important;
+        margin-right:auto !important;
+        margin-top:40px !important;
+    }
+
+    .s9-col-3 {
+        margin-left:0 !important;
+        margin-right:auto !important;
+        margin-top:40px !important;
+    }
+
+    .s9-copyright {
+        flex-direction: column !important;
+    }
+    .s9-right-text {
+        margin-left:0 !important;
+        margin-top:40px;
+    }
+}

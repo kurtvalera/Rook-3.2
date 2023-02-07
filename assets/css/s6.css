@@ -24,6 +24,74 @@
     flex-direction: row
 }
 
+.s6-odd-1 {
+    opacity: 0;
+    transition: 0.1 ease-in;
+    visibility: hidden;
+    position:relative;
+    right: -120%;
+}
+.s6-even-1 {
+    opacity: 0;
+    transition: 0.1 ease-in;
+    visibility: hidden;
+    position:relative;
+    left: -120%;
+}
+
+.s6-odd-2 {
+    opacity: 0;
+    transition: 0.1 ease-in;
+    visibility: hidden;
+    position:relative;
+    right: -120%;
+}
+.s6-even-2 {
+    opacity: 0;
+    transition: 0.1 ease-in;
+    visibility: hidden;
+    position:relative;
+    left: -120%;
+}
+
+.s6-odd-3 {
+    opacity: 0;
+    transition: 0.1 ease-in;
+    visibility: hidden;
+    position:relative;
+    right: -120%;
+}
+
+
+.s6-btn-odd-1 {
+    opacity:0;
+    transition: 0.1 ease-in;
+    visibility:hidden;
+}
+
+.s6-btn-even-1 {
+    opacity:0;
+    transition: 0.1 ease-in;
+    visibility:hidden;
+}
+
+.s6-btn-odd-2 {
+    opacity:0;
+    transition: 0.1 ease-in;
+    visibility:hidden;
+}
+
+.s6-btn-even-2 {
+    opacity:0;
+    transition: 0.1 ease-in;
+    visibility:hidden;
+}
+
+.s6-btn-odd-3 {
+    opacity:0;
+    transition: 0.1 ease-in;
+    visibility:hidden;
+}
 
 .s6 > .container > .row > .col-xl-6 > .s6-header-odd {   
     padding-left:120px;

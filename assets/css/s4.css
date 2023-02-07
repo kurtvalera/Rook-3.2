@@ -5,7 +5,12 @@
 
 .s4 {
     height: 100vh;
-    width:100%
+    width:100%;
+   
+}
+
+.s4-cont {
+    display: none;
 }
 .s4-logo-container {
     margin-top:100px

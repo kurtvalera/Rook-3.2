@@ -10,3 +10,11 @@
     
     cursor: url(../images/s5-cursor.png) 60 60, auto;
 }
+
+.s5-header {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.001s ease-in;
+    position:absolute;
+    bottom:-100%;
+}

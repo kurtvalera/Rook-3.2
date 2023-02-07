@@ -11,6 +11,19 @@
     z-index:10;
 }
 
+.s3-header {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.001s ease-in;
+    position: absolute;
+    bottom:-100%
+}
+.s3-header-span {
+    transition: 0.001s ease-in;
+    visibility:hidden;
+}
+
+
 .s3-outer:after {
     content: '';
     position: absolute;

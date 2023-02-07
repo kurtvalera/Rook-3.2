@@ -25,6 +25,13 @@ body {
     overflow-x:hidden !important;
 }
 
+.disable-scroll {
+    overflow: hidden;
+}
+
+  
+  
+
 #wrapper {
     overflow-x: hidden !important;
 }

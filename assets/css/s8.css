@@ -5,6 +5,10 @@
     width:60%
 }
 
+.s8-header {
+   display:none;
+}
+
 .s8-header-description {
     font-size:20px;
     line-height: 32px;

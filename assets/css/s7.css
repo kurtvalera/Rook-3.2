@@ -1,3 +1,11 @@
 .s7-slide-image {
     transform: scale();
 }
+
+.s7-header {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.001s ease-in;
+    position: absolute;
+    bottom:-100%
+}

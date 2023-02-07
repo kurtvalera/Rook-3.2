@@ -3,9 +3,11 @@
     font-size:16px;
     line-height:20px;
     font-family: 'Poppins', sans-serif;
-    color: #D9D9D9
+    color: #D9D9D9;
+    transition: 0.2s ease-in-out
 }
 .menu:hover {
+    color:white !important;
     cursor: pointer;
 }
 
@@ -16,6 +18,11 @@
     transform:translateY(0); transition: all 0.3s ease-in-out;
 }
 
+.nav-burger {
+    stroke: #D9D9D9;
+    transition: .2s ease-in-out
+}
 
-
-
+.menu:hover .nav-burger {
+    stroke:white;
+}
