@@ -73,7 +73,7 @@ textarea[type=text] {
     border: double 1px transparent !important;
     border-radius: 6px  !important;
     background-image: linear-gradient(#080D13, #080D13),
-        linear-gradient(to right, #00EFFE, #004654, #000000 ) !important;
+        linear-gradient(to right, #00EFFE, #004654,#0050AE ) !important;
  
     background-origin: border-box  !important;
     background-clip: padding-box, border-box  !important;
