@@ -1,5 +1,5 @@
-.s7-slide-image {
-    transform: scale();
+.s7-slide-image:hover {
+    cursor: url(../images/s3-cursor-be.png) 60 60, auto;
 }
 
 .s7-header {
