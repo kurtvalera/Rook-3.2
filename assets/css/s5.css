@@ -18,3 +18,15 @@
     position:absolute;
     bottom:-100%;
 }
+
+@media only screen and (max-width: 460px) {
+    .s5 {
+        margin-top: 160px !important;
+  
+    }
+   
+    .s5-slide-item {
+        height: 350px !important;
+        width: 264.25px !important;
+    }
+}

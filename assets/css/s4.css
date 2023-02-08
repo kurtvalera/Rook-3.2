@@ -42,3 +42,12 @@
     }
    
 }
+
+@media only screen and (max-width: 460px) {
+    .s4-header {
+        margin-top: 100px;
+        position:relative;
+        z-index: 60;
+    }
+   
+}

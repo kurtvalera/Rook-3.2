@@ -9,3 +9,14 @@
     position: absolute;
     bottom:-100%
 }
+
+.s7-slider {
+    margin-top:90px;
+}
+
+@media only screen and (max-width: 460px) {
+    .s7-slider {
+        margin-top:40px;
+    }
+   
+}

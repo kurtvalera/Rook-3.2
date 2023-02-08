@@ -183,4 +183,15 @@ h6 {
     opacity: 1
  }
 
- 
+
+ @media only screen and (max-width: 460px) {
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size:42px !important;
+        
+        line-height:52px;
+
+    }
+    
+   
+} 

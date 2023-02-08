@@ -1,7 +1,7 @@
 .s8-header-title {
     font-size:60px;
     line-height:65px;
-    letter-spacing:-6%;
+    letter-spacing:-4px;
     width:60%
 }
 
@@ -20,6 +20,8 @@
     background-repeat:no-repeat;
     background-position:center;
     background-size:cover;
+    padding-top:200px; 
+    padding-bottom:250px
 }
 
 .s8-input {
@@ -99,3 +101,24 @@ textarea[type=text] {
     color: rgba(255, 255, 255, 0.4) !important
 }
 
+@media only screen and (max-width: 690px) {
+    .s8 {
+        padding-top: 0px !important;
+        padding-bottom:100px;
+    }
+   
+    .s8-header-title {
+        font-size: 42px !important;
+        line-height:52px
+    }
+
+    .s8-input-div {
+       
+        width: 100% !important;
+     
+    }
+    .s8-textarea-div {
+       
+        width: 100% !important;
+    }
+}
