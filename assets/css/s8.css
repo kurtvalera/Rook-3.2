@@ -27,7 +27,7 @@
 .s8-input {
     background-color:#080D13 !important;
 
-    border: none !important;
+    border: 1px solid #111C29;
    
 }
 .form-control {
@@ -68,6 +68,7 @@ textarea[type=text] {
     padding-left:25px !important;
     
 }
+
 
 .form-control:focus {
     box-shadow: none !important;

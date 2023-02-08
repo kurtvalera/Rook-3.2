@@ -160,7 +160,7 @@ h6 {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background-image: linear-gradient(to right, #00EFFE, #004654,#0050AE );
+    background-image: linear-gradient(to right, #00EFFE, #005064,#0050AE );
     opacity: 0;
     transition: all 0.5s ease-in-out;
     border-radius:5px !important;
