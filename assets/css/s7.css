@@ -11,12 +11,12 @@
 }
 
 .s7-slider {
-    margin-top:90px;
+    margin-top:90px !important;
 }
 
 @media only screen and (max-width: 460px) {
     .s7-slider {
-        margin-top:40px;
+        margin-top:40px  !important;
     }
    
 }
