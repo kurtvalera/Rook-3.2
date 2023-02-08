@@ -2,6 +2,8 @@
     cursor: url(../images/s3-cursor-be.png) 60 60, auto;
 }
 
+
+
 .s7-header {
     visibility: hidden;
     opacity: 0;
@@ -13,6 +15,10 @@
 .s7-slider {
     margin-top:90px !important;
 }
+
+
+
+
 
 @media only screen and (max-width: 460px) {
     .s7-slider {

@@ -121,6 +121,8 @@
 </script>
 <script type="text/javascript">
 	$('.owl-carousel-s7').owlCarousel({
+
+
     loop:false,
 	
     nav:false,

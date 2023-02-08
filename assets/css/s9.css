@@ -13,7 +13,8 @@
 .s9-nav-text {
     color: #A3A3A3;
     margin-bottom:10px;
-    margin-top:10px
+    margin-top:10px;
+    transition: 0.2s ease-in-out;
 }
 
 .s9-nav-text:hover {
