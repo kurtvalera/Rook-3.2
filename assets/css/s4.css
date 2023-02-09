@@ -45,7 +45,8 @@
 
 @media only screen and (max-width: 460px) {
     .s4-header {
-       
+        position: relative !important;
+        z-index: 60 !important;
         font-size:39px  !important
     }
    
