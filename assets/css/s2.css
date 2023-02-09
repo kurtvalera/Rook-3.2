@@ -30,6 +30,10 @@
     padding-left:40px
 }
 
+.bg-adapt {
+    background-color:#080D13;
+}
+
 @media only screen and (max-width: 640px) {
     .s2-header {
         line-height:70px;
@@ -49,6 +53,13 @@
     .s2-header {
         line-height:50px;
         font-size:45px;
+    }
+   
+}
+
+@media only screen and (max-height: 800px) {
+    .s2-container {
+        padding-top:260px !important;
     }
    
 }

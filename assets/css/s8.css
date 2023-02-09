@@ -6,7 +6,9 @@
 }
 
 .s8-header {
-   display:none;
+   visibility:hidden;
+   opacity:0;
+   transition: 0.001s ease-in-out;
 }
 
 .s8-header-description {

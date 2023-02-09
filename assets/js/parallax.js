@@ -6,14 +6,14 @@ $(window).scroll(function() {
     var sectionTop = section3.offset().top;
     var windowHeight = $(window).height();
     var scrollTop = $(window).scrollTop();
-    var fixedAdd = 500;
+    var fixedAdd = 300;
 
     if (scrollTop - fixedAdd + windowHeight >= sectionTop) {
       sectionContent3.css('visibility', 'visible');
-      sectionContent3.animate({ opacity: 1, bottom: 0 }, 200);
+      sectionContent3.animate({ opacity: 1, bottom: 0 }, 500);
 
      sectionContent3_span.css('visibility', 'visible');
-     sectionContent3_span.animate({opacity:1}, 100);
+     sectionContent3_span.animate({opacity:1}, 500);
     }
 });
 
@@ -24,13 +24,13 @@ $(window).scroll(function() {
     var sectionTop = section5.offset().top;
     var windowHeight = $(window).height();
     var scrollTop = $(window).scrollTop();
-    var fixedAdd = 700;
+    var fixedAdd = 300;
     
     
     
     if (scrollTop - fixedAdd + windowHeight >= sectionTop) {
       sectionContent5.css('visibility', 'visible');
-      sectionContent5.animate({ opacity: 1, bottom:0 }, 100);
+      sectionContent5.animate({ opacity: 1, bottom:0 }, 500);
     }
   });
 
@@ -62,10 +62,12 @@ $(window).scroll(function() {
   
   console.log(sectionTop);
   if (scrollTop - fixedAdd + windowHeight >= sectionTop) {
+
+  
     section.css('visibility', 'visible');
-    section.animate({ opacity: 1, right:0 }, 300);
-    sectionBtn.delay(100).css('visibility', 'visible');
-    sectionBtn.animate({opacity: 1}, 200);
+    section.animate({ right:0 }, 500);
+    section.animate({opacity: 1}, 500);
+    
   }
 });
 
@@ -82,9 +84,8 @@ $(window).scroll(function() {
   console.log(sectionTop);
   if (scrollTop - fixedAdd + windowHeight >= sectionTop) {
     section.css('visibility', 'visible');
-    section.animate({ opacity: 1, left:0 }, 300);
-    sectionBtn.delay(100).css('visibility', 'visible');
-    sectionBtn.animate({opacity: 1}, 200);
+    section.animate({ left:0 }, 500);
+    section.animate({opacity: 1}, 500);
   }
 });
 
@@ -101,9 +102,8 @@ $(window).scroll(function() {
   console.log(sectionTop);
   if (scrollTop - fixedAdd + windowHeight >= sectionTop) {
     section.css('visibility', 'visible');
-    section.animate({ opacity: 1, left:0 }, 300);
-    sectionBtn.delay(100).css('visibility', 'visible');
-    sectionBtn.animate({opacity: 1}, 200);
+    section.animate({ right:0 }, 500);
+    section.animate({opacity: 1}, 500);
   }
 });
 
@@ -120,9 +120,8 @@ $(window).scroll(function() {
   console.log(sectionTop);
   if (scrollTop - fixedAdd + windowHeight >= sectionTop) {
     section.css('visibility', 'visible');
-    section.animate({ opacity: 1, left:0 }, 300);
-    sectionBtn.delay(100).css('visibility', 'visible');
-    sectionBtn.animate({opacity: 1}, 200);
+    section.animate({ left:0 }, 500);
+    section.animate({opacity: 1}, 500);
   }
 });
 
@@ -140,9 +139,8 @@ $(window).scroll(function() {
   console.log(sectionTop);
   if (scrollTop - fixedAdd + windowHeight >= sectionTop) {
     section.css('visibility', 'visible');
-    section.animate({ opacity: 1, left:0 }, 300);
-    sectionBtn.delay(100).css('visibility', 'visible');
-    sectionBtn.animate({opacity: 1}, 200);
+    section.animate({ right:0 }, 500);
+    section.animate({opacity: 1}, 500);
   }
 });
 
@@ -153,13 +151,13 @@ $(window).scroll(function() {
   var sectionTop = section.offset().top;
   var windowHeight = $(window).height();
   var scrollTop = $(window).scrollTop();
-  var fixedAdd = 700;
+  var fixedAdd = 300;
   
   
   
   if (scrollTop - fixedAdd + windowHeight >= sectionTop) {
     sectionContent5.css('visibility', 'visible');
-    sectionContent5.animate({ opacity: 1, bottom:0 }, 100);
+    sectionContent5.animate({ opacity: 1, bottom:0 }, 500);
   }
 });
 
@@ -174,6 +172,7 @@ $(window).scroll(function() {
   
  
   if (scrollTop - fixedAdd + windowHeight >= sectionTop) {
-    sectionContent.fadeIn();
+    sectionContent.css('visibility', 'visible');
+    sectionContent.animate({ opacity: 1 }, 500);
   }
 });

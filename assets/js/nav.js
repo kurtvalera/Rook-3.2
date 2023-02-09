@@ -47,6 +47,10 @@ $(document).ready(function() {
 
   $(".menu").click(function() {
     $(".navmenu").fadeToggle(); 
+   
+    setTimeout(function() {
+      $("nav").toggleClass("bg-adapt");
+    }, 100);
     $("body").toggleClass("disable-scroll");
   });
 

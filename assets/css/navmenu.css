@@ -89,3 +89,10 @@
     }
   
 }
+@media only screen and (max-height: 800px) {
+  
+  .nav-right h3 {
+  
+    line-height:70px;
+  }
+}

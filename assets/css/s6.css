@@ -61,7 +61,7 @@
     position:relative;
     right: -120%;
 }
-
+/* 
 
 .s6-btn-odd-1 {
     opacity:0;
@@ -91,7 +91,7 @@
     opacity:0;
     transition: 0.1 ease-in;
     visibility:hidden;
-}
+} */
 
 .s6 > .container > .row > .col-xl-6 > .s6-header-odd {   
     padding-left:120px;
