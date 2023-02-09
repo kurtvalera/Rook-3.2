@@ -35,7 +35,7 @@
 @media only screen and (max-width: 768px) {
     .s4-header {
         line-height:50px;
-        font-size:40px;
+        font-size:40px !important;
         text-align:left !important;
         justify-content:left;
         width: 100% !important;
@@ -45,9 +45,8 @@
 
 @media only screen and (max-width: 460px) {
     .s4-header {
-        margin-top: 100px;
-        position:relative;
-        z-index: 60;
+       
+        font-size:39px  !important
     }
    
 }
