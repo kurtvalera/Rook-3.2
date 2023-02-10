@@ -21,12 +21,15 @@
 
 @media only screen and (max-width: 460px) {
     .s5 {
-        margin-top: 160px !important;
+        margin-top: 60px !important;
   
     }
    
     .s5-slide-item {
         height: 350px !important;
         width: 264.25px !important;
+    }
+    .s5-slide-title {
+        margin-top:12px !important;
     }
 }

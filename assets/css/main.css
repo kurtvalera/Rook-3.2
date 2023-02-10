@@ -192,6 +192,9 @@ h6 {
         line-height:52px;
 
     }
+    .light-orb {
+        display:none !important;
+    }
     
    
 } 

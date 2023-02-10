@@ -60,6 +60,10 @@
 @media only screen and (max-height: 800px) {
     .s2-container {
         padding-top:260px !important;
+        
+  
+    background-size: 200%;
+    background-position-y: top;
     }
    
 }
