@@ -55,7 +55,23 @@ $(document).ready(function() {
   });
 
    
- 
+  $(".navmenu-link").click(function() {
+    $(".navmenu").fadeToggle(); 
+   
+    setTimeout(function() {
+      $("nav").toggleClass("bg-adapt");
+    }, 100);
+    $("body").toggleClass("disable-scroll");
+  });
+
+  $(".navmenu-btn").click(function() {
+    $(".navmenu").fadeToggle(); 
+   
+    setTimeout(function() {
+      $("nav").toggleClass("bg-adapt");
+    }, 100);
+    $("body").toggleClass("disable-scroll");
+  });
   
 });
 

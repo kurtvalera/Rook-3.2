@@ -1,4 +1,4 @@
-<section class="s8">
+<section class="s8" id="s8">
     <div class="container">
         <div class="row">
             <div class="col-2xl-12 flex justify-center text-center items-center">
@@ -50,14 +50,57 @@
              
 
                 <div class="mt-[50px]">
-                        <a class="h-[60px] w-[150px] btn-gradient z-50">
+                        <a class="h-[60px] w-[150px] btn-gradient z-50" data-toggle="modal" data-target="#myModal">
                             <div class="flex h-full w-full items-center justify-center bg-[#080D13] back rounded-[5px] relative z-[60]">
                                 <span class="text-white px-[20px] text-center">Contact Us</span>
                             </div>
                         </a>
                 </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="vertical-alignment-helper">
+                        <div class="modal-dialog vertical-align-center modal-lg">
+                            <div class="modal-content bg-[#080D13] border-none">
+                                <div class="modal-header flex border-none ">
+                                    
+                                    <button type="button" class="close ml-auto p-[30px]" data-dismiss="modal">
+                                        <span aria-hidden="true">
+                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 13L13 1M1 1L13 13" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+         
+                                        </span>
+
+                                    </button>
+
+                                </div>
+                                <div class="modal-body border-none flex flex-col justify-center items-center text-center ">
+                                    <span class="text-extralight s8-modal-header flex-1 text-white mx-auto">
+                                        Coming <span class="text-semibold">Soon</span> 
+                                    </span>
+
+                                    <span class="text-white s8-modal-description  flex-1 mt-[35px]">
+                                        For any feedback or enquiries, kindly reach us at <a href="mailto:sales@rookdigitalunlimited.com" class="text-[#01EFFE]">sales@rookdigitalunlimited.com</a> 
+                                    </span>
+                                </div>
+                                <div class="modal-footer border-none flex justify-center items-center pb-[100px]">
+                                    <a class="h-[60px] w-[150px] btn-gradient z-50 close" data-dismiss="modal">
+                                        <div class="flex h-full w-full items-center justify-center bg-[#080D13] back rounded-[5px] relative z-[60]">
+                                            <span class="text-white px-[20px] text-center">Okay, Got It</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
             </div>
         </div>
         
     </div>
 </section>
+
+

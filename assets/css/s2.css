@@ -17,12 +17,13 @@
 
 .s2-header {
     line-height:98.5px;
-    letter-spacing: -5px;
+   
     font-size:90px;
 }
 
 .s2-description {
     flex-direction: row;
+    margin-top: 30px;
 }
 
 

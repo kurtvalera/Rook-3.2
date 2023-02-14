@@ -32,7 +32,7 @@
   .navmenu-header {
     font-size: 45px;
     line-height: 60px;
-    letter-spacing:-4px;
+
     color:white
   }
   .navmenu-contact {
@@ -56,7 +56,7 @@
   }
 
   .nav-socials:hover {
-    color:#007D87
+    color:white
   }
 
 

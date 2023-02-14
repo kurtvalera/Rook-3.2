@@ -18,10 +18,14 @@
     position: absolute;
     bottom:-100%
 }
-.s3-header-span {
-    transition: 0.001s ease-in;
-    visibility:hidden;
+.s3-span-ani {
+    display:none
 }
+
+.s3-span-ani:hover {
+    display:none
+}
+
 
 
 .s3-outer:after {
@@ -145,5 +149,9 @@
         
         top: 18px !important;
         left:25px !important;
+   }
+
+   .s3-slider {
+    margin-top: 50px !important;
    }
 }

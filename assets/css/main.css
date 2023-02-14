@@ -50,7 +50,7 @@ h1 {
     font-size:75px !important;
     font-weight:600 !important;
     line-height:80px;
-    letter-spacing: -0.8px;
+    letter-spacing: -3px;
 }
 
 h2 {
@@ -58,7 +58,7 @@ h2 {
     font-size:60px !important;
     font-weight:600 !important;
     line-height:65px;
-    letter-spacing: -0.8px;
+    letter-spacing: -3px;
 }
 
 h3 {
@@ -66,7 +66,7 @@ h3 {
     font-size:45px !important;
     font-weight:600 !important;
     line-height:60px;
-    letter-spacing: -0.8px;
+    letter-spacing: -3px;
 }
 
 h4 {
@@ -74,7 +74,7 @@ h4 {
     font-size:30px !important;
     font-weight:600 !important;
     line-height:36px;
-    letter-spacing: -0.8px;
+    letter-spacing: -3px;
 }
 
 h5 {
@@ -82,7 +82,7 @@ h5 {
     font-size:22px !important;
     font-weight:600 !important;
     line-height:27px;
-    letter-spacing: -0.8px;
+    letter-spacing: -3px;
 }
 
 h6 {
@@ -90,7 +90,7 @@ h6 {
     font-size:18px !important;
     font-weight:600 !important;
     line-height:23px;
-    letter-spacing: -0.8px;
+    letter-spacing: -3px;
 }
 
 .text-b {
@@ -182,6 +182,33 @@ h6 {
   
     opacity: 1
  }
+
+ a:hover {
+    color:white;
+
+ }
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+ max-width:inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events:all;
+}
 
 
  @media only screen and (max-width: 460px) {

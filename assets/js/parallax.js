@@ -2,7 +2,7 @@
 $(window).scroll(function() {
     var section3 = $('.s3');
     var sectionContent3 = $('.s3-header');
-    var sectionContent3_span = $('.s3-header-span');
+    var sectionContent3_span = $('.s3-span-ani');
     var sectionTop = section3.offset().top;
     var windowHeight = $(window).height();
     var scrollTop = $(window).scrollTop();
@@ -12,10 +12,12 @@ $(window).scroll(function() {
       sectionContent3.css('visibility', 'visible');
       sectionContent3.animate({ opacity: 1, bottom: 0 }, 500);
 
-     sectionContent3_span.css('visibility', 'visible');
-     sectionContent3_span.animate({opacity:1}, 500);
+     sectionContent3_span.fadeIn();
+     sectionContent3_span.css('display', 'flex');
     }
 });
+
+
 
 // Section 5
   $(window).scroll(function() {
