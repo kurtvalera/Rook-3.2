@@ -137,4 +137,8 @@ textarea[type=text] {
        
         width: 100% !important;
     }
+    .s8-header-description {
+        padding-left:40px;
+        padding-right:40px;
+    }
 }
