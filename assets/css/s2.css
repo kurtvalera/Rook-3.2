@@ -17,13 +17,12 @@
 
 .s2-header {
     line-height:98.5px;
-    letter-spacing: -3px !important;
+    letter-spacing: -3px;
     font-size:90px;
 }
 
 .s2-description {
     flex-direction: row;
-    margin-top: 30px;
 }
 
 
@@ -35,7 +34,7 @@
     background-color:#080D13;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
     .s2-header {
         line-height:70px;
         font-size:65px;
@@ -48,23 +47,19 @@
         padding-left:0;
         padding-top:35px;
     }
+    .s2-container {
+        padding-top:260px !important;
+        
+  
+    background-size: 250%;
+    background-position-y: top;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     .s2-header {
         line-height:50px;
         font-size:45px;
-    }
-   
-}
-
-@media only screen and (max-height: 800px) {
-    .s2-container {
-        padding-top:260px !important;
-        
-  
-    background-size: 200%;
-    background-position-y: top;
     }
    
 }

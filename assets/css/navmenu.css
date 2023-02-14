@@ -32,7 +32,7 @@
   .navmenu-header {
     font-size: 45px;
     line-height: 60px;
-
+    letter-spacing: -1px;
     color:white
   }
   .navmenu-contact {
