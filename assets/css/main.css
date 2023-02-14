@@ -74,7 +74,7 @@ h4 {
     font-size:30px !important;
     font-weight:600 !important;
     line-height:36px;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
 }
 
 h5 {
@@ -82,7 +82,7 @@ h5 {
     font-size:22px !important;
     font-weight:600 !important;
     line-height:27px;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
 }
 
 h6 {
@@ -90,7 +90,7 @@ h6 {
     font-size:18px !important;
     font-weight:600 !important;
     line-height:23px;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
 }
 
 .text-b {
