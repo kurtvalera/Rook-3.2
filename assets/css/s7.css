@@ -17,6 +17,10 @@
     
 }
 
+.s7-slide-image:hover {
+    cursor: url(../images/s7-cursor.png) 60 60, auto !important;
+}
+
 .s7-slider {
     margin-top:90px !important;
 }
