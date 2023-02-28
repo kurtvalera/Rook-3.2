@@ -23,10 +23,20 @@ body {
     background-color: #080D13;
     padding:0px !important;
     overflow-x:hidden !important;
+    overflow-y:hidden;
 }
 
 .disable-scroll {
     overflow: hidden;
+}
+
+.preloader {
+    background-image: url(../images/s8-bg.png);
+    display:none;
+}
+
+.preloader-gif {
+    display:none;
 }
 
   
